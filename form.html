@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <blockquote> 
+    <form action="" id="form1">
+        <fieldset>
+            <legend><h1>SMIT Registration Form</h1></legend>    
+        
+        <fieldset><legend>Personal Info</legend>
+        <p>
+        <label for="Name">Full Name</label>
+        <input maxlength="30" type="text" name="name" id="fName" placeholder="First Name">
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" id="email" placeholder="E-Mail">
+        </p>
+        <p>
+            <label for="pNumber" >Phone Number</label>
+            <input type="number" name="number" id="pNumber" placeholder="Phone Number">
+            <label for="cnic">CNIC</label>
+            <input type="text" pattern="[0-9]*" inputmode="numeric" placeholder="CNIC">
+        </p>
+        <p>
+            <label for="dob">Date of birth</label>
+            <input type="date" name="dob" id="dob">
+            <label for="gender">Gender</label>
+            <select name="gendr" id="gender">
+                <option value="" disabled selected>Gender</option>
+                <option value="m">Male</option>
+                <option value="fm">Fe-Mail</option>
+                <option value="pns">Prefer not to say</option>
+            </select>
+        </p>
+        </fieldset>
+        <fieldset><legend>Father's Information</legend>
+          <p>
+            <label for="fName">Father Name</label>
+            <input maxlength="30" type="text" name="fName" id="fName" placeholder="Father Name">
+            <label for="fcnic">Father's CNIC(Optional)</label>
+            <input type="number" name="fCnic" id="fcnic" placeholder="Father' CNIC(Optional)">
+          </p>
+        </fieldset>
+
+        
+        <fieldset><legend>Other Information</legend>
+           
+        <br>
+        <label for="add">Address</label><br>
+        <input type="text" name="address" id="add" placeholder="Address"><br><br>
+        <label for="lQual">Last Qualification</label><br>
+        <select name="lastQualification" id="lQual">
+            <option value="" disabled selected>lastQualification</option>
+            <option value="matric">Matriculation</option>
+            <option value="inter">Intermediate</option>
+            <option value="grad">Graduation</option>
+        </select><br><br>
+        <label for="l.y/n">Do you have a Laptop</label><br>
+        <select name="ask lptop" id="l.y/n">
+            <option value="" disabled selected>Do you have a Laptop</option>
+            <option value="yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="pic">Picture</label><br>
+        <input type="file" accept="image/png, image/jpeg, image/jpg" max="1000000" name="" id="pic"><br>
+        
+        <ul>
+            <li>White or blue background</li>
+            <li>File size must be less than 1MB</li>
+            <li>File type: jpg, jpeg, png</li>
+            <li>Recent passport-size picture</li>
+            <li>Face should be clearly visible without any glasses</li>
+        </ul><br><hr><br>
+        <p>
+            <ol>
+                <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+                <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                <li>Defiance will render my admission canceled at any point in time.</li>
+                <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+            </ol>
+        </p>
+        <br><hr><br>
+        
+    </fieldset> <br>
+    <center>
+        <input type="submit" value="📝 Submit Form" style="font-size: 20px; padding: 5px;">
+    </center>
+    
+
+    </form></blockquote>
+    </fieldset>
+</body>
+</html>
